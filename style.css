@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f7;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.match-card {
+    background: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #eeeeee;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    width: 55px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-btn {
+    background: #1e88e5;
+    color: white;
+}
+
+.save-btn:hover {
+    opacity: 0.9;
+}
